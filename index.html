@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="seni.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header>
+        <p class="logo">Akram</p>
+        <nav>
+            <div class="nav">
+                <a href="#" class="active">Home</a>
+                <a href="social.html">Social Media</a>
+            </div>
+        </nav>
+    </header>
+    <div class="awal">
+        <h1>Portofolio</h1>
+        <input type="text" id="input" onchange="kawan()" class="masukan">
+        <p class="asik">Masukkan nama dulu yaaa</p>
+    </div>
+    <br><br>
+
+    <script>
+        function kawan() {
+            var inputnama = document.getElementById("input");
+            var pesan = document.getElementById("pesan");
+           pesan.innerHTML = "Halo "+ inputnama.value + ", salam kenal yaaa";
+        }
+    </script>
+    
+    <div class="info">
+        <img src="IMG-20230705-WA0034.jpg" alt="me" class="akram">
+        <div class="panggil">
+        <p id="pesan" class="pesan"></p>
+        <p class="saya">Perkenalkan nama saya Akram, orang tua saya berkerja
+            di BPS, saya menekuni programming sejak kelas 10</p>
+        </div>
+    </div>
+</body>
+</html>

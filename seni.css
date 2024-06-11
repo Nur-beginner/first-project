@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    min-height: 100vh;
+    background: rgb(15, 17, 41);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(199, 194, 194);
+    padding: 15px;
+    text-align: center;
+}
+.nav{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.active{
+    background: white;
+}
+a{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: .5s;
+    padding: 5px;
+    border-radius: 20px;
+}
+.awal{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+header a:hover{
+    background: white;
+    border-radius: 20px;
+    padding: 5px;
+}
+h1{
+    font-family: Arial;
+    font-size: 3rem;
+    color: white;
+}
+.info{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background: rgb(76, 75, 138);
+}
+.akram{
+    width: 200px;
+    margin: 5px;
+    border-radius: 50px;
+    border: 5px groove black;
+    box-shadow: 11px 12px 24px black;
+}
+.saya{
+    width: 250px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: white;
+}
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+.asik{
+    color: white;
+    font-family: arial;
+}
+#input{
+    border-radius: 5px;
+}
+.panggil{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+.pesan{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-transform: capitalize;
+}
